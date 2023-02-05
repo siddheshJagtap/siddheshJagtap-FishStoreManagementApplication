@@ -1,4 +1,4 @@
-## `Below are the screenshots of the application`
+#### `Below are the screenshots of the application`
 <img width="70%" alt="HomePage" src="https://user-images.githubusercontent.com/66126165/216803343-be715e51-24f5-4832-b0ac-5bdcae8a14a9.png"><div> `User can add data in the system such as Title Description Instock Shelf/Tank Number`</div>
 
 <img width="70%" alt="CreateData" src="https://user-images.githubusercontent.com/66126165/216803477-9e623350-efe3-4ad7-9f2d-0d3da5c07752.png"><div> `Once data is saved we get success message and a button is shown to add more records`</div>
