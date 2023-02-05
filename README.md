@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+## `Below are the screenshots of the application`
+<img width="70%" alt="HomePage" src="https://user-images.githubusercontent.com/66126165/216803343-be715e51-24f5-4832-b0ac-5bdcae8a14a9.png"><div> `User can add data in the system such as Title Description Instock Shelf/Tank Number`</div>
+
+<img width="70%" alt="CreateData" src="https://user-images.githubusercontent.com/66126165/216803477-9e623350-efe3-4ad7-9f2d-0d3da5c07752.png"><div> `Once data is saved we get success message and a button is shown to add more records`</div>
+
+<img width="70%" alt="DataSavedSuccesfully" src="https://user-images.githubusercontent.com/66126165/216803486-92de054c-567d-4edc-bebf-aca8245c8182.png"><div> `User can click on 'Fish Store data List' Tab to view the complete list.User can also perform search by title and delete/delete all on this screen`</div>
+
+<img width="70%" alt="DataSavedDataList" src="https://user-images.githubusercontent.com/66126165/216803498-9d0bf51d-7f94-4bbc-97a8-da5eb7166c20.png">
+
+
+
+
+
+
+#Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
