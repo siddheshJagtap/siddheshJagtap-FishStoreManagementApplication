@@ -121,6 +121,7 @@ export default class DataListWindow extends Component<Props, State> {
           backgroundColor: "lightgray",
           padding: "30px",
           borderRadius: "5px",
+          marginBottom:'10%'
         }}
       >
         <div className="col-md-8" style={{ marginLeft: "17%" }}>
