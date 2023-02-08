@@ -1,19 +1,14 @@
 import React, { Component } from "react";
 import homepageIcon from "../additaments/homePageLogo.jpg";
+import { Link } from 'react-router-dom';
+
 class HomePage extends Component {
   constructor(props) {
     super(props);
-    this.registrationPage = this.registrationPage.bind(this);
     this.loginPage = this.loginPage.bind(this);
   }
 
-  registrationPage() {
-    this.props.history.push("/add-technician");
-  }
-
-  loginPage() {
-    this.props.history.push("/login");
-  }
+  loginPage() {}
   render() {
     return (
       <div>
@@ -24,7 +19,12 @@ class HomePage extends Component {
             onClick={this.loginPage}
           >
             {" "}
-            LOGIN
+            <Link
+                to={"/login"}
+                className="badge badge-dark"
+              >
+                LOGIN
+              </Link>
           </button>
           <h2>FISH STORE MANAGEMENT HOMEPAGE</h2>
         </div>
@@ -43,4 +43,4 @@ class HomePage extends Component {
   }
 }
 
-export default HomePage;
+ export default HomePage;

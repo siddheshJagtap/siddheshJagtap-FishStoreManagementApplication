@@ -6,6 +6,7 @@ import DataListWindow from "./components/DataListWindow";
 import AddDataWindow from "./components/AddDataWindow";
 import HomePage from "./components/HomePage";
 import FooterComponent from "./components/FooterComponent";
+import LoginPage from "./components/LoginPage";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/" element={<HomePage />} />
             <Route path="/storeDataList" element={<DataListWindow />} />
             <Route path="/add" element={<AddDataWindow />} />
+            <Route path="/login" element={<LoginPage/>} />
           </Routes>
         </div>
         <FooterComponent />
